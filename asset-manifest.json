@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/blogThis/static/css/main.ecaf39de.css",
+    "main.js": "/blogThis/static/js/main.95b1c35b.js",
+    "static/media/image_1.jpg": "/blogThis/static/media/image_1.1b38a4228e3fff516903.jpg",
+    "static/media/image_3.jpg": "/blogThis/static/media/image_3.1ef5ceb10cc9e9d81c18.jpg",
+    "static/media/team_4.jpg": "/blogThis/static/media/team_4.a60bfe535827ef86af56.jpg",
+    "static/media/team_1.jpg": "/blogThis/static/media/team_1.61559d2ed0c6a2bb1a96.jpg",
+    "static/media/dark_bg.jpg": "/blogThis/static/media/dark_bg.0893380128ab23842a48.jpg",
+    "static/media/light_bg.jpg": "/blogThis/static/media/light_bg.5ef066e9cc4bc79821e0.jpg",
+    "static/media/brain_robot.png": "/blogThis/static/media/brain_robot.c684a9d1f2b8bdfc8587.png",
+    "static/media/light_brain_robot.jpeg": "/blogThis/static/media/light_brain_robot.462ce0660ba7d0761b00.jpeg",
+    "static/media/team_2.jpg": "/blogThis/static/media/team_2.fe7049b063cf0b30d20b.jpg",
+    "static/media/logo.jpeg": "/blogThis/static/media/logo.ac6582d54d1587d210a9.jpeg",
+    "static/media/team_3.jpg": "/blogThis/static/media/team_3.e23d6bdc5db291b74a8c.jpg",
+    "index.html": "/blogThis/index.html",
+    "main.ecaf39de.css.map": "/blogThis/static/css/main.ecaf39de.css.map",
+    "main.95b1c35b.js.map": "/blogThis/static/js/main.95b1c35b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecaf39de.css",
+    "static/js/main.95b1c35b.js"
+  ]
+}
