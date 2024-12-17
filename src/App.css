@@ -1,0 +1,169 @@
+/* Define CSS variables for light theme */
+:root {
+  --background-color: url('./assets/light_bg.jpg') no-repeat;
+  --text-color: #000000;
+  --header-color: #333333;
+  --paragraph-color: #444444;
+  --link-color: #1e90ff;
+  --button-background-color: #1e90ff;
+  --button-hover-background-color: #0a74d9;
+  --container-background-color: rgba(255, 255, 255, 0.8);
+  --section-background-color: rgba(255, 255, 255, 0.8);
+  --section-header-color: #2c3e50;
+  --team-member-info-color: #3498db;
+  --values-background-color: #3498db;
+  --background-color-about-us: url('./light_brain_robot.jpeg') no-repeat;
+
+}
+
+/* Dark theme overrides */
+.dark-theme {
+  --background-color: url('./assets/dark_bg.jpg') no-repeat;
+  --text-color: #ffffff;
+  --header-color: #ffffff;
+  --paragraph-color: #cccccc;
+  --link-color: #1e90ff;
+  --button-background-color: #333333;
+  --button-hover-background-color: #555555;
+  --container-background-color: rgba(0, 0, 0, 0.8);
+  --section-background-color: rgba(0, 0, 0, 0.8);
+  --section-header-color: #ffffff;
+  --team-member-info-color: #1e90ff;
+  --values-background-color: #1e90ff;
+  --background-color-about-us: url('./brain_robot.png') no-repeat;
+}
+
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: var(--background-color);
+  background-size: cover;
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--header-color);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+  color: var(--paragraph-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 20px;
+  background: var(--container-background-color);
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 20px auto;}
+
+button {
+  background-color: var(--button-background-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: var(--button-hover-background-color);
+}
+
+.about-us {
+  font-family: 'Arial', sans-serif;
+  color: var(--header-color);
+  padding: 20px;
+  background: var(--background-color-about-us) no-repeat;
+  background-size: auto;
+}
+
+.section {
+  background: var(--section-background-color);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: var(--section-header-color);
+  margin-bottom: 10px;
+}
+
+.section p, .section ul {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--team-member-info-color);
+}
+
+.member-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.values ul {
+  list-style: none;
+  padding: 0;
+}
+
+.values li {
+  background: var(--values-background-color);
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+  .team-member {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .team-member img {
+      margin-bottom: 10px;
+  }
+}
+
